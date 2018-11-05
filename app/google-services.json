@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "668333597538",
+    "firebase_url": "https://fitplibros.firebaseio.com",
+    "project_id": "fitplibros",
+    "storage_bucket": "fitplibros.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668333597538:android:d37fc12cd4850b3c",
+        "android_client_info": {
+          "package_name": "com.fitplibros.oscar.fitplibros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668333597538-g657907q0c9370vl8jgi1pbpl0nt8jlt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fitplibros.oscar.fitplibros",
+            "certificate_hash": "764985159117a9dbec2fd7f39cd7876ff0251596"
+          }
+        },
+        {
+          "client_id": "668333597538-m30fner397nh6b1ku49lc20jtv0dlpkk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnNdobvGtGGuikkOVA1eiE7hwIccrvQIE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668333597538-m30fner397nh6b1ku49lc20jtv0dlpkk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Noticias" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Préstamos" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Multas"/>
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Consulta de Libros" />
+        <item
+            android:id="@+id/nav_biblioteca_libre"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="Biblioteca Libre" />
+    </group>
+
+    <item android:title="Configuración">
+        <menu>
+            <item
+                android:id="@+id/cerrasesion"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Cerrar sesión" />
+        </menu>
+    </item>
+
+</menu>
