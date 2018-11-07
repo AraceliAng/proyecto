@@ -52,8 +52,8 @@ public class PrestamosFragment extends Fragment {
 
         user = FirebaseAuth.getInstance().getCurrentUser();
 
-
-        Query query = FirebaseDatabase.getInstance().getReference("Prestamos")
+        String userId = user.getUid();
+        Query query = FirebaseDatabase.getInstance().getReference("Prestamos/"+userId)
                 .orderByChild("usuario_prestado")
                 .equalTo(Common.currentUser.getNum_control());
 
