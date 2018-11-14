@@ -199,6 +199,7 @@ public class MainActivity extends AppCompatActivity
         };
     }
     //PARA GENERAL EL TOKEN DEL PRESTAMO PARA SABER A QUIEB LE LLEGARA UNA NOTIFICACION
+    // debes poner esto
     private void initFCM(){
         String token = FirebaseInstanceId.getInstance().getToken();
         Log.d(TAG, "initFCM: token: " + token);
@@ -214,7 +215,7 @@ public class MainActivity extends AppCompatActivity
                 .child(getString(R.string.field_prestamos_token))
                 .setValue(token);
     }
-
+    // hasta aqui
     // INITFCM & SENDREGISTRATIONTOSERVER SON FUNCIONES AGREGADAS POR ARA
 
 
