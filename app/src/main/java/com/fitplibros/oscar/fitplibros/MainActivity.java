@@ -48,6 +48,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
@@ -96,6 +97,7 @@ public class MainActivity extends AppCompatActivity
 
         //------ SE EJECUTA LA FUNCION INITFCM AGREGADA POR ARA
         initFCM();
+
         //---------------------------------------------------------------------------------
         Fragment fragment = null;
         Class fragmentClass = null;
